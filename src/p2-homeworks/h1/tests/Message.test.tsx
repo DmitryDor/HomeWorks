@@ -5,6 +5,7 @@ import Message from "../Message";
 test('find text "test message name"', () => {
     const {getByText} = render((
         <Message
+            //@ts-ignore
             avatar=""
             name="test message name"
             message=""
@@ -17,6 +18,7 @@ test('find text "test message name"', () => {
 test('find text "test message"', () => {
     const {getByText} = render((
         <Message
+            //@ts-ignore
             avatar=""
             name=""
             message="test message"
@@ -29,6 +31,7 @@ test('find text "test message"', () => {
 test('find text "test message time"', () => {
     const {getByText} = render((
         <Message
+            //@ts-ignore
             avatar=""
             name=""
             message=""
