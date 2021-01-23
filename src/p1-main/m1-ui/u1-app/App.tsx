@@ -1,6 +1,7 @@
 import React from "react";
 import s from "./App.module.css";
-import HW1 from "../../../p2-homeworks/h1/HW1";
+import HW2 from "../../../p2-homeworks/h2/HW2";
+
 
 const messageData = {
     avatar: "https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg",
@@ -13,8 +14,8 @@ function App() {
     return (
         <div className={s.App}>
             <div>react homeworks:</div>
-            <HW1 />
-            {/*<HW2/>*/}
+           {/* <HW1 />*/}
+            <HW2/>
             {/*<HW3/>*/}
             {/*<HW4/>*/}
             {/*<HW5/>*/}
